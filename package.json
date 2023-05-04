@@ -1,0 +1,43 @@
+{
+  "name": "@sensethenlove/get-relative-time",
+  "version": "1.0.0",
+  "author": "Sense Then Love",
+  "license": "MIT",
+  "type": "module",
+  "types": "./lib/index.d.ts",
+  "homepage": "https://github.com/sensethenlove/get-relative-time#readme",
+  "description":  "Simple function that recieves a date and gives back the relative time using Intl.RelativeTimeFormat('en', { numeric: 'auto' })",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "pnpm tsc",
+    "live": "pnpm build && npm publish --access public"
+  },
+  "keywords": [
+    "Intl",
+    "RelativeTimeFormat",
+    "moment",
+    "date",
+    "relative",
+    "ago",
+    "past",
+    "future",
+    "till",
+    "time",
+    "typescript"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sensethenlove/get-relative-time.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sensethenlove/get-relative-time/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}
